@@ -249,11 +249,15 @@
     <div>
         <energy/>
     </div>
+    <div>
+        <magic/>
+    </div>
 </template>
 
 <script>
 import works from '@/components/worksComponent.vue'
 import energy from '@/components/energycomponent.vue'
+import magic from '@/components/magiccomponent.vue'
 export default {
     data() {
         return {
@@ -272,7 +276,7 @@ export default {
             }
         })
     },
-    components: { works  , energy},
+    components: { works  , energy,magic},
 }
 </script>
 

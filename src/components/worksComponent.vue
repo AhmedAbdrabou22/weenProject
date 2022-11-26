@@ -6,9 +6,10 @@
             </a>
         </div>
         <div class="text-center mt-5 revolutionises  py-5">
-            <div class="w-50 m-auto">
+            <div class="d m-auto">
                 <h1><span>How</span> it works?</h1>
-                <p class="mt-5 py4">The Ween thermostat <b>revolutionises programming your heating</b> based your daily
+                <p class="mt-5 py-4 par">The Ween thermostat <b>revolutionises programming your heating</b> based your
+                    daily
                     routine and location.
                     It detects when you leave and anticipates your return to adjust the temperature perfectly.
                     All without any input from you. <span>Magic!</span></p>
@@ -38,6 +39,10 @@
     transition: 0.2s all ease;
 }
 
+.d {
+    width: 50%;
+}
+
 @keyframes example {
     0% {
         top: 15px
@@ -60,7 +65,14 @@
 .revolutionises span {
     color: #74f1cb;
 }
-.homeImage img{
-    width:80%;
+
+.homeImage img {
+    width: 80%;
+}
+
+@media(max-width:768px) {
+    .d {
+        width: 100%;
+    }
 }
 </style>
